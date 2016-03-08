@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+    <link href="styles.css" rel="stylesheet">
+    <title>Random quote machine</title>
+</head>
+<body>
+<h1 class="header">RANDOM NIGERIAN QUOTE MACHINE</h1>
+<p class="header intro">
+    Click the button below for some of my favorite quotes,by nigerian "politicians"
+    <br>Enjoy!</p>
+
+<div class="wrapper clearfix">
+    <button onclick="quote()" id="btn" >NEW QUOTE</button>
+    <div class="wrapper textbox">
+
+        <blockquote id="quotes"></blockquote>
+
+    </div>
+    <button class= "btn fa fa-twitter" onclick="tweetIt()"> Tweet it! </button>
+
+</div>
+
+<br>
+<br>
+<div class="panel-footer">Made with <i class="fa fa-coffee"></i> by <a href="https://twitter.com/_seyiadeleke_">Adeleke Adetokunbo </a> </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="script.js"> </script>
+</body>
+</html>

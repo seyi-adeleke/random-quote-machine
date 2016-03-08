@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+
+html,body{
+    background-color:whitesmoke;
+    height: 100%;
+}
+.btn.fa.fa-twitter{
+    color:white;
+    border-radius: 10px;
+    position:relative;
+    margin-top:20px;
+    text-align:center;
+    background-color:darkgrey;
+}
+.textbox{
+    margin:auto;
+    margin-top: 20px;
+
+    width:60%;
+    color:black;
+    font-family: 'Crimson Text', serif;
+
+    border:2px solid darkgrey;
+    border-radius:25px;
+    -moz-border-radius:25px; /* Firefox 3.6 and earlier */
+    padding:10px;
+
+}
+.intro{
+    color:black;
+}
+.header{
+    font-family: 'Crimson Text', serif;
+    margin: 0 auto;
+    text-align: center;
+}
+#btn{
+    border-radius: 15px;
+    color: white;
+    background-color:darkgrey;
+    margin-top: 20px;
+    padding:20px 20px 20px 20px;
+    font-family: 'Crimson Text', serif;
+}
+.wrapper{
+    text-align:center;
+}
+
+.panel-footer {
+    background-color: ghostwhite;
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+}
+.fa-heart{
+    color:red;
+}
